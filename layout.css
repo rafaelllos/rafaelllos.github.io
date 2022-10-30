@@ -1,0 +1,97 @@
+/* Freehand */
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+/* Roboto Slab */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;700&display=swap');
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+header {
+    padding-left: 350px;
+    margin-bottom: 150px;
+}
+.header__logo > p {
+    font-family: 'Freehand', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 20px;
+    /* color: rgb(70, 104, 154); */
+    color: #000;
+}
+
+
+/* Main */
+main {
+    padding-left: 350px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.main__block {
+    margin-right: 300px;
+}
+
+
+/* Blocks */
+.block__title > p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.block__text > p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    width: 300px;
+    color: #000;
+}
+.block__text > p > a {
+    color: #000;
+}
+.block__btn > button {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: rgb(182, 182, 182);
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    transition: .5s ease;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.block__btn > button:hover {
+    background-color: rgb(118, 118, 118);
+    transition: .5s ease;
+}
+.block__image > img {
+    border-radius: 30px;
+}   
+
+
+/* Footer */
+footer {
+    background-color: rgb(118, 118, 118);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+.footer__text > p {
+    padding-top: 25px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: 300;
+}

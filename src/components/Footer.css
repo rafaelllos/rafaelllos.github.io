@@ -1,0 +1,49 @@
+footer {
+    background-color: rgb(230, 230, 230);
+}
+
+.footer__text {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    /* display: flex;
+    flex-direction: row; */
+
+    display: grid;
+    grid-template-columns: repeat(4, auto); 
+    align-items: center;
+    justify-items: center;
+
+    padding-top: 15px;
+
+    text-align: center;
+}
+
+.footer__text a,
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+
+    /* flex: 1 1 auto;  */
+
+    transition: .3s;
+}
+
+.footer__text a {
+    color: rgb(120, 120, 120);
+}
+
+.footer__text a:hover {
+    color: rgb(115, 120, 203);
+
+    transition: .3s;
+}
+
+footer p {
+    color: rgb(100, 100, 100);
+    text-align: center;
+
+    padding-bottom: 15px;   
+}
+
