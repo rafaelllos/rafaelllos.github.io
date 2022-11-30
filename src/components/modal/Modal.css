@@ -1,6 +1,6 @@
 .modal {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: #000;
     font-weight: 400;
     text-align: center;
@@ -18,10 +18,12 @@
     pointer-events: none;
     transition: 0.5s;
 }
+
 .modal.active {
     opacity: 1;
     pointer-events: all;
 }
+
 .modal__content {
     padding: 20px;
     border-radius: 12px;
@@ -30,6 +32,17 @@
     transition: 0.4s all;
     /* width: 50vw; */
 }
+
 .modal__content.active {
     transform: scale(1);
+}
+
+.modal__title {
+    font-weight: 600;
+
+    margin-bottom: 20px;
+}
+
+.modal__text {
+    margin-bottom: 20px;
 }
